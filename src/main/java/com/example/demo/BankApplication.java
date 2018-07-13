@@ -47,6 +47,7 @@ public class BankApplication {
 			l.add(100);
 			l.add(200);
 			p.listOfAccounts = (java.util.List<Integer>) l;
+			
 			// fetch all accounts
 			log.info("Accounts found with findAll():");
 			log.info("-------------------------------");
@@ -70,6 +71,7 @@ public class BankApplication {
 				log.info(a.toString());
 				log.info("");
 			});
+			
 
 		};
 	}
